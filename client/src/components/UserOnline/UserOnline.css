@@ -1,0 +1,31 @@
+.active {
+    background-color: #eaf3ff;
+}
+.main {
+    height: 60vh;
+    overflow-y: scroll;
+    position: sticky;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+::-webkit-scrollbar-track {
+    background-color: #eaddcf;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #020826;
+}
+
+.user {
+    display: flex;
+    padding: 8px;
+    align-items: center;
+    margin: 8px 0;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+.user:hover {
+    background-color: rgba(243, 244, 246, 1);
+}
