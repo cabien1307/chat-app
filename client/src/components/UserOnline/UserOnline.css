@@ -19,11 +19,12 @@
 
 .user {
     display: flex;
-    padding: 8px;
+    padding: 8px 0;
     align-items: center;
     margin: 8px 0;
     cursor: pointer;
     border-radius: 12px;
+    width: 100%;
 }
 
 .user:hover {

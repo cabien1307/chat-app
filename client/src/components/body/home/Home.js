@@ -198,7 +198,7 @@ function Home() {
 
     return (
         <div className="home_page">
-            <div className="container mx-auto grid grid-cols-12 gap-3 bg-background h-100">
+            <div className="2xl:container xl:container mx-auto grid grid-cols-12 gap-3 bg-background h-100">
                 <div className="col-span-4 border-r-2 pr-0.5">
                     {/* Top sidebar */}
                     <div className="py-3 px-2">
